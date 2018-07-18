@@ -1,0 +1,120 @@
+.body{
+    margin:0;
+    padding:0;
+    height:100%;
+    min-height:100%;
+}
+
+.header{
+    text-align: left;
+    padding-top: 20px;
+    font-size: 480%;
+}
+
+.tabs{
+    width: 100%;
+    left: 0;
+    text-align: center;
+    border-top: solid black 3px;
+    border-bottom: solid black 3px;
+    height: 30px;
+    padding-top: .4%;
+}
+
+.button{
+    border-left: solid black 3px;
+    height: 100%;
+    font-size: 20px;
+    padding-top: .5%;
+    padding-bottom: .4%;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.button1{
+    border-left: solid black 3px;
+    border-right: solid black 3px;
+    height: 100%;
+    font-size: 20px;
+    padding-top: .5%;
+    padding-bottom: .4%;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+.pics{
+    margin: 0 auto;
+    position: relative;
+    width: 900px;
+    height: 600px;
+    padding-top: 3%;
+
+}
+
+.imageCenter{
+    width: 100%;
+    height: 100%;
+    z-index: -5;
+}
+
+.imageLeft{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    top: 15%;
+    z-index: -5;
+    left: 25%;
+}
+
+.imageRight{
+    position: absolute;
+    top: 15%;
+    right: 25%;
+    z-index: -5;
+    width: 800px;
+    height: 500px;
+}
+
+::placeholder{
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.email{
+    font-size: 15px;
+}
+
+.name{
+    font-size: 15px;
+}
+
+/** Footer CSS is complete */
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    opacity: .95;
+}
+
+.footer-content{
+    padding-left: .5%;
+    padding-right: .5%;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}

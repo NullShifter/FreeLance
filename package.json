@@ -1,0 +1,17 @@
+{
+  "name": "new-web-proj",
+  "version": "1.0.0",
+  "description": "Home Page for Teran's website",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Sanford",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.4.0",
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.0.8"
+  }
+}
