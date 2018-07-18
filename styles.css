@@ -42,36 +42,35 @@
     padding-right: 12%;
 }
 .pics{
-    margin: 0 auto;
     position: relative;
-    width: 900px;
-    height: 600px;
-    padding-top: 3%;
+    width: 100%;
+    height: 100%;
 
 }
 
 .imageCenter{
-    width: 100%;
-    height: 100%;
+    margin-left: 13%;
+    width: 75%;
+    height: 75%;
     z-index: -5;
 }
 
 .imageLeft{
     position: absolute;
-    width: 800px;
-    height: 500px;
-    top: 15%;
+    width: 55%;
+    height: 85%;
+    top: 6%;
     z-index: -5;
-    left: 25%;
+    margin-left: 43%;
 }
 
 .imageRight{
     position: absolute;
-    top: 15%;
-    right: 25%;
+    top: 6%;
+    margin-left: 2%;
     z-index: -5;
-    width: 800px;
-    height: 500px;
+    width: 55%;
+    height: 85%;
 }
 
 ::placeholder{
@@ -96,7 +95,7 @@
     bottom: 0;
     width: 100%;
     background-color: black;
-    font-size: 25px;
+    font-size: 150%;
     text-align: center;
     color: white;
     opacity: .95;
