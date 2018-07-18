@@ -11,6 +11,11 @@
     font-size: 480%;
 }
 
+.headLink{
+    text-decoration: none;
+    color: black;
+}
+
 .tabs{
     width: 100%;
     left: 0;
@@ -29,6 +34,8 @@
     padding-bottom: .4%;
     padding-left: 12%;
     padding-right: 12%;
+    text-decoration: none;
+    color: black;
 }
 
 .button1{
@@ -40,6 +47,8 @@
     padding-bottom: .4%;
     padding-left: 12%;
     padding-right: 12%;
+    text-decoration: none;
+    color: black;
 }
 .pics{
     position: relative;
@@ -71,6 +80,30 @@
     z-index: -5;
     width: 55%;
     height: 85%;
+}
+
+.textLayover{
+    position: absolute;
+    top: 70%;
+    margin-left: 13%;
+    z-index: 20;
+    text-align: center;
+    background-color: white;
+    width: 75%;
+    bottom: 0%;
+    opacity: .4;
+}
+
+.textContent{
+    position: absolute;
+    top: 70%;
+    margin-left: 13%;
+    z-index: 20;
+    text-align: center;
+    font-size: 350%;
+    width: 75%;
+    bottom: 0%;
+    opacity: 1;
 }
 
 ::placeholder{
