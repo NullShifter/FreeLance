@@ -87,6 +87,14 @@ body{
     height: 39vw;
 }
 
+.textSpacer{
+    background-color: white;
+    height: 4vw;
+    bottom: 0vw;
+    top: 70vw;
+
+}
+
 .textLayover{
     position: absolute;
     top: 27vw;
@@ -152,7 +160,8 @@ body{
 
 /** Footer CSS is complete */
 .footer{
-    position: relative;
+    position: fixed;
+    z-index: 22;
     left: 0%;
     bottom: 0%;
     width: 100%;
