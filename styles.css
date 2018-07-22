@@ -61,7 +61,7 @@ body{
 
 .imageCenter{
     margin-top: 1vw;
-    margin-left: 20%;
+    margin-left: 19vw;
     width: 65vw;
     height: 48.8vw;
     z-index: -5;
@@ -71,7 +71,7 @@ body{
     position: absolute;
     width: 55vw;
     height: 39vw;
-    top: 3vw;
+    top: 4vw;
     z-index: -5;
     margin-left: 38vw;
     margin-top: 1vw;
@@ -79,7 +79,7 @@ body{
 
 .imageRight{
     position: absolute;
-    top: 3vw;
+    top: 4vw;
     margin-left: 7vw;
     margin-top: 1vw;
     z-index: -5;
@@ -98,19 +98,19 @@ body{
 .textLayover{
     position: absolute;
     top: 27vw;
-    margin-left: 20vw;
+    margin-left: 19vw;
     z-index: 20;
     text-align: center;
     background-color: white;
-    width: 60vw;
+    width: 65vw;
     bottom: 0vw;
     opacity: .4;
 }
 
 .textContent{
     position: absolute;
-    top: 27vw;
-    margin-left: 23vw;
+    top: 34vw;
+    margin-left: 26vw;
     z-index: 20;
     text-align: center;
     font-size: 3vw;
@@ -122,13 +122,13 @@ body{
 .about-button{
     position: absolute;
     background-color: black;
-    margin-left: -35.5vw;
-    top: 34.5vw;
+    margin-left: -36.5vw;
+    top: 42vw;
     text-align: center;
     font-size: 1.5vw;
     text-decoration: none;
     color: white;
-    z-index: 30;
+    z-index: 20;
     padding-top: .5vw;
     padding-bottom: .5vw;
     padding-right: 2.6vw;
@@ -138,9 +138,9 @@ body{
 .whiteTriangle{
     height: 4vw;
     position: absolute;
-    margin-left: -28.4vw;
-    top: 34vw;
-    z-index: 30;
+    margin-left: -29.4vw;
+    top: 41.5vw;
+    z-index: 20;
 }
 
 ::placeholder{
@@ -188,11 +188,3 @@ body{
     display: flex;
     flex-direction: column;
 }
-
-/*This is the end of the homepage styles
-  This is the start of the About page styles.
-  some of the about page uses the styles from
-  the homepage, but these are additional styles*/
-
-
-

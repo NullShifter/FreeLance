@@ -1,0 +1,26 @@
+body{
+    font-size: 2vw;
+}
+.about-content{
+    margin-left: 10vw;
+    margin-right: 10vw; 
+}
+
+h1 {
+    text-align: center;
+    font-size: 200vw;
+}
+
+
+h2 {
+    font-family: "Permanent Marker";
+    text-align: left;
+    font-size: 4vw;
+    Color: #555;
+}
+h3{
+    font-family: "Permanent Marker";
+    text-align: left;
+    font-size: 2.5vw;
+    Color: #555;
+}
